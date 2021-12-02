@@ -1,0 +1,136 @@
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url('../fonts/Roboto-Regular.woff2') format('woff2'),
+         url('../fonts/Roboto-Regular.woff') format('woff');
+  }
+
+* {
+    box-sizing: border-box;
+    font-family: "Open Sans", "Roboto";
+    font-weight: 600;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0; 
+}
+
+.inputStart {
+    text-align: center;
+}
+ 
+.pairs-game {
+    margin-top: 100px;
+}
+
+.h2 {
+    font-size: 40px;
+}
+
+.pairs-game__h2 {
+    text-align: center;
+}
+
+.row {
+    margin: auto;
+    justify-content: space-between;
+}
+
+.cardContainer {
+    color: white;
+    margin-left: 0px;
+    font-size: 28px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.cardContainer:hover {
+    opacity: 0.8;
+}
+
+.cardOpened {
+    /* background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%); */
+    background: #a972d3b9;
+    border: 3px solid #7943A4;
+}
+
+.cardClosed {
+    /* background: rgb(132, 245, 183);
+    background: radial-gradient(circle, rgb(233, 87, 150) 0%, rgb(86, 154, 231) 100%); */
+    background: #7943A4;
+    border: 3px solid #7943A4;
+    /* border-radius: 100px; */
+}
+
+.cardValue {
+    font-size: 40px;
+    text-align: center;
+}
+
+.hidden {
+    visibility: hidden;
+}
+
+.test {
+    background: red;
+}
+
+.pWin {
+    text-align: center;
+    font-size: 40px;
+}
+
+.btnWin, .btnStart {
+    width: 100%;
+    padding: 10px;
+    /* background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%); */
+    background: #9D5CD0;
+    border: 3px solid;
+    border-radius: 100px;
+    color: white;
+    outline: none;
+    margin: auto;
+    font-size: 40px;
+    margin-bottom: 20px;
+    /* border-radius: 15px; */
+    cursor: pointer;
+}
+
+.btnStart:hover, .btnWin:hover {
+    opacity: 0.8;
+}
+
+.btnWin:active, .btnStart:active {
+    background: #7943A4;
+    border: 3px solid #D1A9F0;
+    box-sizing: border-box;
+    border-radius: 100px;
+}
+
+.containerWin {
+    margin: auto;
+    width: 30%;
+    border-radius: 10px;
+}
+
+.containerStart {
+    margin: auto;
+    width: 60%;
+}
+
+.inputStart {
+    margin: auto;
+    height: 60px;
+    width: 190px;
+    display: block;
+    border-radius: 5px;
+    font-size: 30px;
+    outline: none;
+    margin-bottom: 30px;
+}
